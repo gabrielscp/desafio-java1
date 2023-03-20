@@ -1,0 +1,49 @@
+body {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  background-color: black; }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  border: solid 2px;
+  border-radius: 5%;
+  background-color: #74cc74;
+  border-color: aqua; }
+
+.img-card img {
+  height: 250px;
+  width: 250px;
+  margin-top: 20px; }
+
+.img-card h6 {
+  font-size: large;
+  color: #452aa5; }
+
+.card .img-card .items {
+  margin-bottom: 20px; }
+
+.total-section {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  border: solid 2px;
+  border-radius: 5%;
+  border-color: red;
+  background-color: #b7dddd;
+  height: 250px;
+  width: 250px;
+  margin: 20px; }
+
+.total-section .color div {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #080808;
+  border-radius: 50%;
+  border: solid 2px; }
